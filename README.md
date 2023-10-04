@@ -25,3 +25,50 @@ Se ejecutara la ultima instrucción para el desarrollo de Arduino.
 ```
 $ ./install.sh
 ```
+
+Nota: Debido al tipo de máquina puede que el acceso directo no se creé en automático, no obstante se puede abrir desde la bóveda de aplicaciones y agregarlo a favoritos 
+
+Se recomienda la instalación de binarios en la estación de trabajo ROS (Instalación del rosserial para Arduino) 
+
+
+$ sudo apt-get install ros-${ROS_DISTRO}-rosserial-arduino
+$ sudo apt-get install ros-${ROS_DISTRO}-rosserial
+
+Para seguir con el siguiente punto es necesario tener un catking workspace creado, pues será el lugar donde se modifican e instalan los paquetes catkin.
+ 
+Los comando para la creación de dicho catking workspace es:
+
+$ mkdir -p ~/catkin_ws/src   Creación del workspace 
+$ cd ~/catkin_ws/            Ubicación 
+$ catkin_make                Creación un enlace CMakeLists.txt en su carpeta 'src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
