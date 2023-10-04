@@ -5,7 +5,7 @@
 
 
 
-Se accede a la pagina oficial de Arduino[Arduino](https://www.arduino.cc/en/software), se descarga la versión de preferencia en este caso la 1.8.19-64 Linux.
+Se accede a la pagina oficial de [Arduino](https://www.arduino.cc/en/software), se descarga la versión de preferencia en este caso la 1.8.19-64 Linux.
 
 Se descomprime el archivo 
 
