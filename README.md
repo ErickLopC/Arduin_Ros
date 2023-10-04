@@ -3,4 +3,4 @@
 
 
 
-[RTAI's LXRT module](https://stackoverflow.com/questions/70697888/rpi-gpio-modulenotfounderror-no-module-named-rpi-gpio).
+[Arduino](https://github.com/ErickLopC/Arduin_Ros/blob/main/README.md).
