@@ -45,7 +45,19 @@ cd ~/catkin_ws/            Ubicación
 catkin_make                Creación un enlace CMakeLists.txt en su carpeta 'src
 ```
 
+El nombre del Workspace a utilizar en este caso es catkin_ws
 
+Antes de continuar se debe compilar el nuevo archivo setup.*sh mediante:
+
+```
+source devel/setup.bash
+```
+
+Para asegurarse de que su espacio de trabajo esté correctamente superpuesto por el script de configuración, asegúrese de que la variable de entorno ROS_PACKAGE_PATH incluya el directorio en el que se encuentra. 
+
+```
+ echo $ROS_PACKAGE_PATH
+```
 
 
 
