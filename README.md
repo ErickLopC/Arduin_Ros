@@ -4,7 +4,7 @@
 
 
 
-
+# Configuración de Arduino IDE
 Se accede a la pagina oficial de [Arduino](https://www.arduino.cc/en/software), se descarga la versión de preferencia en este caso la 1.8.19-64 Linux.
 
 Se descomprime el archivo 
@@ -30,11 +30,13 @@ Nota: Debido al tipo de máquina puede que el acceso directo no se creé en auto
 
 Se recomienda la instalación de binarios en la estación de trabajo ROS (Instalación del rosserial para Arduino) 
 
+# Instalación de rosserial
 ```
 sudo apt-get install ros-${ROS_DISTRO}-rosserial-arduino
 sudo apt-get install ros-${ROS_DISTRO}-rosserial
 ```
 
+# Configuración del workspace
 Para seguir con el siguiente punto es necesario tener un catking workspace creado, pues será el lugar donde se modifican e instalan los paquetes catkin.
  
 Los comando para la creación de dicho catking workspace es:
